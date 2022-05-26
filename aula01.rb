@@ -21,5 +21,35 @@ puts 120 * 120
 #saber tipo da variável variavel.class
 #todas as variáveis são objetos (independente do tipo) 
 #Object é a classe mãe de todas as outras classes em ruby 
-variavel = 10
-puts variavel.class
+inteiro = 10
+puts inteiro
+puts inteiro.class
+flo = 10.05
+puts flo
+puts flo.class
+puts '---------'
+boo = true
+puts boo
+puts boo.class
+puts '---------'
+str = "Hello World"
+puts str
+puts str.class
+puts '---------'
+arr = [0,1,'alo']
+puts arr[2]
+puts arr.class
+puts' ---------'
+symbol = :ruby_symbol
+puts symbol
+puts symbol.class
+puts symbol.object_id #para saber a posição da memória do objeto
+puts' ---------'
+hash = { 
+    course:'ruby',
+    language:'pt-Br',
+    locale:"onebitcode"
+}
+puts hash
+puts hash.class
+puts hash[:language]

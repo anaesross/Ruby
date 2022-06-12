@@ -13,4 +13,4 @@ puts subr
 puts div
 puts res
 puts multi
-puts exp
+puts "Expo: #{exp}"
